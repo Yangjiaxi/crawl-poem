@@ -1,0 +1,3 @@
+selenium==3.141.0
+ujson==4.0.2
+requests==2.26.0

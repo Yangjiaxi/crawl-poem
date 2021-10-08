@@ -104,4 +104,5 @@ if __name__ == "__main__":
             json.dump(washed, f, ensure_ascii=False, indent=2)
 
     else:  # result/merge.json exist
-        pass
+        data = read_json(Config.merge_file)
+        print("size: ", len(data))
